@@ -1,0 +1,99 @@
+token:--- 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
+
+sudo -i ---root user
+cat > aws
+"
+hi 
+how r u 
+"
+
+nano aws
+
+vim editor
+
+vim aws-->edit file
+gg: first line
+G:last line
+
+copying file from one file to other files
+
+cat git | tee jenkin mavens
+
+copying data from one folder to other:
+
+
+cat devops/git | tee linux/jenkin linux/mavens
+
+
+finding the file or user 
+
+find .  -type f -name mavens --->findif the file 
+
+find .  -type d -name linux ---> fiding the directory
+
+find .  -type f -name mavens
+
+find devops/ -user aws--> finding the file with USER aws
+
+find ./ -type f -empty---> finding the empty file.
+
+find ./ -type d -empty--> finding the empty directory.
+find ./ -size 1M---> finding the file of particular size
+find . -size <= 1M--> finding lessthan particular size
+
+permissions:
+
+chmod 777 hello--> giving full permission like read write and execute. for file and folder.
+chmod 666 hello ---> only read and write permission
+chmod +x tcs---> giving executive access to all.
+chmod 567  devops -R--->giving acees for folder as well files inthat folder
+
+find ./ -perm 567--finding the filesand folders with 567 permission
+find ./ -type f -perm 567---> finding only files with 567 permission.
+find ./ -type d  -perm 567---> finding folders with 567 permission.
+find ./ -type d ! -perm 567---> finding folders without 567 permission.
+
+
+YUM- yellowdog updater modifier
+
+yum install git -y
+
+git init
+
+yum install git y
+    2  git init
+    3  git status
+git add aws
+    9  git status
+   10  git commit -m "this is my first file " aws
+12  git log
+
+touch tcs infosys infotec dxc
+
+ git status
+git add *-->add all files of library
+git commit -m "adding new files" .  ----> commit all files at a time
+git log----> to check for log files
+git show 1dc95be6c51d359c3083acfdc024aaf78e4c4c7e --name-only  ---> to show commited items.
+git add .  --->will add all files and hiddenfiles  in that library.
+
+git config user.name "srini"-- to change the user name from root --->srini
+git config user.email "srinivas@gmail.com" ---> to change the ip address to email id
+vim .gitignore ---->to ignore the specifi files.
+git add * -f to forcefuly addthe ignore files
+
+
+
+to untag the item from stagged to working directory
+
+git rm -cached file name
+
+
+ 93  git rm --cached file1.pdf----> untrack the item
+   94  git status
+   95  ll
+   96  git rm --cachec file5.txt
+   97  git rm --cached file5.txt
+   98  rm -f azure-->removing azure from directory
+   99  ll
+  100  git restore azure-->restoring item from git
